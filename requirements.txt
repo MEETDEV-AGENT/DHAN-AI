@@ -1,0 +1,27 @@
+# Dhan AI — Predictive Model Training & Deployment
+# Core dependencies
+
+# PyTorch (install separately for CUDA support: https://pytorch.org/get-started)
+torch>=2.1.0
+
+# Transformers & PEFT
+transformers>=4.36.0
+peft>=0.7.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+safetensors>=0.4.0
+tokenizers>=0.15.0
+datasets>=2.16.0
+sentencepiece>=0.1.99
+
+# Training utilities
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# Serving (optional — install for deployment)
+# vllm>=0.2.7
+
+# General
+numpy>=1.24.0
+tqdm>=4.66.0
+pyyaml>=6.0
