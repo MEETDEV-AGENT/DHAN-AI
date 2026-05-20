@@ -1,0 +1,18 @@
+# Dhan AI — Agent Orchestrator Dependencies
+
+# Async support
+asyncio-compat>=0.1.0; python_version < "3.11"
+
+# HTTP client (for Pinchtab API and broker integrations)
+httpx>=0.25.0
+aiohttp>=3.9.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Logging
+structlog>=23.2.0
+
+# Type hints backports
+typing-extensions>=4.8.0
